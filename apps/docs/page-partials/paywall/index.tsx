@@ -96,7 +96,7 @@ const PaywallPartial = () => {
         </p>
       </div>
       <div
-        className="!h-[calc(100vh_-_261px)] bg-image !overflow-auto"
+        className="!h-[calc(100vh_-_282px)] bg-image !overflow-auto"
         style={{ backgroundImage: `url(${PaywallBG.src})` }}
       >
         <div className="flex flex-col justify-center items-center gap-8 px-2">
@@ -116,7 +116,7 @@ const PaywallPartial = () => {
           ))}
         </div>
       </div>
-      <div className="border-t border-[#2E3438] bg-background flex gap-6 py-4 flex-col items-center justify-center fixed w-full bottom-0">
+      <div className="border-t border-[#2E3438] bg-background flex gap-6 py-4 flex-col items-center justify-center sticky w-full bottom-0">
         <div className="flex items-center justify-center gap-1 leading-0 text-white font-semibold ">
           <Image
             src={CloudTickIcon.src}

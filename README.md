@@ -23,3 +23,4 @@ To develop or start all apps and packages, run the following command:
 cd turborepo-assesment
 pnpm dev
 ```
+After running the command, the project will be available at http://localhost:3001.

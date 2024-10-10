@@ -9,14 +9,14 @@ const ProcessingPartial = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push("paywall");
-    }, 300000);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, [router]);
 
   return (
     <main className="h-screen">
-      <div className="fingerprint scanning">
+      <div className="fingerprint scanning relative">
         <div
           className="h-screen bg-cover bg-center bg-no-repeat overflow-hidden"
           style={{

@@ -126,7 +126,7 @@
 }
 
 @keyframes scanning {
-    100% { transform: translate(0, 90vh); }
+    100% { transform: translate(0, 89vh); }
 }
 
 input[type='radio'] {

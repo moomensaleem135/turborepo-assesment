@@ -1,4 +1,5 @@
 import "@repo/ui/globals.css";
+import { cn } from "@repo/ui/lib/utils";
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
  
@@ -60,7 +61,7 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={ZTtalk.className}>{children}</body>
+      <body className={cn(ZTtalk.className, 'max-w-md m-auto')}>{children}</body>
     </html>
   );
 }
